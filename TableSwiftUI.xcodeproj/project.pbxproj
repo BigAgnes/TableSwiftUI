@@ -18,7 +18,6 @@
 		AF36D64A275BB9780044A093 /* BookModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF36D649275BB9780044A093 /* BookModel.swift */; };
 		AF36D64C275BBA330044A093 /* BookViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF36D64B275BBA330044A093 /* BookViewModel.swift */; };
 		AF88D738275DF32600405605 /* DetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF88D737275DF32600405605 /* DetailsView.swift */; };
-		AF88D73B275E03DC00405605 /* ModalView in Frameworks */ = {isa = PBXBuildFile; productRef = AF88D73A275E03DC00405605 /* ModalView */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,7 +40,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				AF36D648275BB8BE0044A093 /* Alamofire in Frameworks */,
-				AF88D73B275E03DC00405605 /* ModalView in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -131,7 +129,6 @@
 			name = TableSwiftUI;
 			packageProductDependencies = (
 				AF36D647275BB8BE0044A093 /* Alamofire */,
-				AF88D73A275E03DC00405605 /* ModalView */,
 			);
 			productName = TableSwiftUI;
 			productReference = AF36D632275BB45D0044A093 /* TableSwiftUI.app */;
@@ -163,7 +160,6 @@
 			mainGroup = AF36D629275BB45D0044A093;
 			packageReferences = (
 				AF36D646275BB8BE0044A093 /* XCRemoteSwiftPackageReference "Alamofire" */,
-				AF88D739275E03DC00405605 /* XCRemoteSwiftPackageReference "modal-view" */,
 			);
 			productRefGroup = AF36D633275BB45D0044A093 /* Products */;
 			projectDirPath = "";
@@ -413,14 +409,6 @@
 				kind = branch;
 			};
 		};
-		AF88D739275E03DC00405605 /* XCRemoteSwiftPackageReference "modal-view" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/diniska/modal-view";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 1.0.0;
-			};
-		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -428,11 +416,6 @@
 			isa = XCSwiftPackageProductDependency;
 			package = AF36D646275BB8BE0044A093 /* XCRemoteSwiftPackageReference "Alamofire" */;
 			productName = Alamofire;
-		};
-		AF88D73A275E03DC00405605 /* ModalView */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = AF88D739275E03DC00405605 /* XCRemoteSwiftPackageReference "modal-view" */;
-			productName = ModalView;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
